@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "unmapped_DG_rejected": true,
+    "capacity_substitution_rejected": true,
+    "stale_weather_rejected": true,
+    "missing_weather_rejected": true,
+    "actual_model_example_passed": true,
+    "next_15min_timestamp_correct": true,
+    "output_power_in_station_bounds": true
+  }
+}

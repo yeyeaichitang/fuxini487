@@ -1,0 +1,26 @@
+{
+  "schema_version": "full-fuxi-pv-v1",
+  "model_scope": "complete original FuXi graph with internal decoder layer29 Wq LoRA and station PV head",
+  "history_len": 16,
+  "interval_minutes": 15,
+  "prediction_horizon_minutes": 15,
+  "raw_fields": [
+    {"name": "timestamp", "type": "string", "format": "ISO8601 with timezone", "required": true},
+    {"name": "temperature_c", "type": "number", "unit": "degC", "required": true, "sensor_input": true, "bounds": [-50, 70]},
+    {"name": "pressure_hpa", "type": "number", "unit": "hPa", "required": true, "sensor_input": true, "bounds": [300, 1100]},
+    {"name": "humidity_percent", "type": "number", "unit": "%", "required": true, "sensor_input": true, "bounds": [0, 100]},
+    {"name": "irradiance_w_m2", "type": "number", "unit": "W/m2", "meaning": "global horizontal irradiance (GHI), not lux", "required": true, "sensor_input": true, "bounds": [0, 1500]},
+    {"name": "power_mw", "type": ["number", "null"], "unit": "MW", "required": true, "meaning": "measured historical active power, never prior model predictions"}
+  ],
+  "model_fields": ["temperature_c", "pressure_hpa", "humidity_percent", "irradiance_w_m2", "power_pu"],
+  "normalization": "station-specific training-only weather means/stds; power divided by station capacity",
+  "training_missing_policy": "reject invalid histories and targets; no imputation",
+  "runtime_missing_policy": "at most 2 consecutive missing power points may be forward-filled from an earlier measurement inside the window; weather is never imputed",
+  "server_side_requirements": ["verified station latitude", "verified station longitude", "historical timezone", "contemporaneous normalized full global weather input"],
+  "global_weather_shape": [1, 2, 85, 721, 1440],
+  "native_weather_forecast_step_hours": 6,
+  "output_power_unit": "MW",
+  "output_bound": "0 <= power_mw <= request.capacity_mw",
+  "hardware_connected": false,
+  "real_pv_training_completed": false
+}

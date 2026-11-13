@@ -1,0 +1,137 @@
+{
+  "station_id": "hkust_zone_a6",
+  "capacity_mw": 0.05,
+  "interval_minutes": 15,
+  "as_of": "2021-12-02T08:00:00+08:00",
+  "history": [
+    {
+      "temperature_c": 12.4141333333,
+      "pressure_hpa": 1009.33979667,
+      "humidity_percent": 49.1468,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T04:15:00+08:00"
+    },
+    {
+      "temperature_c": 12.3121333333,
+      "pressure_hpa": 1009.32446333,
+      "humidity_percent": 49.9339333333,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T04:30:00+08:00"
+    },
+    {
+      "temperature_c": 12.1852666667,
+      "pressure_hpa": 1009.37713,
+      "humidity_percent": 50.3805333333,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T04:45:00+08:00"
+    },
+    {
+      "temperature_c": 12.0853333333,
+      "pressure_hpa": 1009.38979667,
+      "humidity_percent": 50.7032666667,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T05:00:00+08:00"
+    },
+    {
+      "temperature_c": 12.1024,
+      "pressure_hpa": 1009.40646333,
+      "humidity_percent": 50.4938,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T05:15:00+08:00"
+    },
+    {
+      "temperature_c": 12.1337333333,
+      "pressure_hpa": 1009.44113,
+      "humidity_percent": 49.8594666667,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T05:30:00+08:00"
+    },
+    {
+      "temperature_c": 12.1151333333,
+      "pressure_hpa": 1009.45913,
+      "humidity_percent": 49.7968666667,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T05:45:00+08:00"
+    },
+    {
+      "temperature_c": 12.0533333333,
+      "pressure_hpa": 1009.54179667,
+      "humidity_percent": 49.2556666667,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T06:00:00+08:00"
+    },
+    {
+      "temperature_c": 12.0645333333,
+      "pressure_hpa": 1009.59313,
+      "humidity_percent": 48.104,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T06:15:00+08:00"
+    },
+    {
+      "temperature_c": 12.0227333333,
+      "pressure_hpa": 1009.70446333,
+      "humidity_percent": 47.2131333333,
+      "irradiance_w_m2": 0.0441253333333,
+      "power_mw": 0.0,
+      "timestamp": "2021-12-02T06:30:00+08:00"
+    },
+    {
+      "temperature_c": 11.9654666667,
+      "pressure_hpa": 1009.81246333,
+      "humidity_percent": 45.8512,
+      "irradiance_w_m2": 1.95622466667,
+      "power_mw": 0.000224,
+      "timestamp": "2021-12-02T06:45:00+08:00"
+    },
+    {
+      "temperature_c": 11.9124,
+      "pressure_hpa": 1009.81646333,
+      "humidity_percent": 46.5996,
+      "irradiance_w_m2": 8.99449333333,
+      "power_mw": 0.0012903334,
+      "timestamp": "2021-12-02T07:00:00+08:00"
+    },
+    {
+      "temperature_c": 12.0592666667,
+      "pressure_hpa": 1009.88513,
+      "humidity_percent": 46.3720666667,
+      "irradiance_w_m2": 27.7850666667,
+      "power_mw": 0.0027896667,
+      "timestamp": "2021-12-02T07:15:00+08:00"
+    },
+    {
+      "temperature_c": 12.5036666667,
+      "pressure_hpa": 1009.91779667,
+      "humidity_percent": 45.4760666667,
+      "irradiance_w_m2": 62.0470666667,
+      "power_mw": 0.0050303335,
+      "timestamp": "2021-12-02T07:30:00+08:00"
+    },
+    {
+      "temperature_c": 13.1380666667,
+      "pressure_hpa": 1009.89379667,
+      "humidity_percent": 42.8722666667,
+      "irradiance_w_m2": 101.866333333,
+      "power_mw": 0.0077206665,
+      "timestamp": "2021-12-02T07:45:00+08:00"
+    },
+    {
+      "temperature_c": 13.9761333333,
+      "pressure_hpa": 1009.91646333,
+      "humidity_percent": 40.6981333333,
+      "irradiance_w_m2": 147.75,
+      "power_mw": 0.010486667,
+      "timestamp": "2021-12-02T08:00:00+08:00"
+    }
+  ],
+  "pressure_reference": "sea_level"
+}

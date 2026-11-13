@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "station_id": "hkust_zone_a6",
+  "based_on": "2021-12-02T08:00:00+08:00",
+  "interval_minutes": 15,
+  "model_name": "pv-forecast",
+  "model_version": "full-fuxi-pv-available-data-v1",
+  "predictions": [
+    {
+      "timestamp": "2021-12-02T08:15:00+08:00",
+      "power_mw": 0.012738923728466035
+    }
+  ],
+  "data_quality": {
+    "power_imputed_count": 0,
+    "power_imputed_indices": [],
+    "last_actual_power_at": "2021-12-02T08:00:00+08:00",
+    "filled_values_are_measurements": false,
+    "input_quality": "measured"
+  },
+  "weather_context_utc": "2021-12-01T18:00:00+00:00",
+  "research_only": true,
+  "production_accuracy_validated": false
+}

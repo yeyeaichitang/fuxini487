@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "station_holdout_verified": true,
+  "original_stations_used": 8,
+  "heldout_test_examples": 125,
+  "full_graph_lora_steps": 12,
+  "sensor_fields": [
+    "temperature_c",
+    "pressure_hpa",
+    "humidity_percent",
+    "irradiance_w_m2"
+  ],
+  "metrics_independently_recomputed": true,
+  "fixed_head_comparison_verified": true,
+  "saved_model_reloaded_full_graph_forward_passed": true,
+  "reload_example_station": "hkust_zone_a6",
+  "reload_prediction_mw": 0.012738923728466035,
+  "recorded_prediction_mw": 0.012738919258117676,
+  "model_sha256": "2cdc66eb40c9bb4e2c07accc2e455e612d69dc48d1c41bae049b32205796b3b8",
+  "production_model_ready": false
+}

@@ -1,0 +1,41 @@
+# Local environments and editor settings
+.venv/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+.cdsapirc
+
+# Source datasets, archived experiments, runtimes and weather caches
+/data/
+/archive/
+/output/*
+!/output/fuxi_full_retry_20261108/
+/output/fuxi_full_retry_20261108/*
+!/output/fuxi_full_retry_20261108/MODEL_INPUT_OUTPUT_SPEC.md
+!/output/fuxi_full_retry_20261108/validation.json
+
+# Large upstream model and meteorological arrays supplied separately
+*.pt2
+*.nc
+*.npy
+*.npz
+*.onnx
+# Small upstream normalization arrays required by the model
+!/fuxi-2.1/mean.nc
+!/fuxi-2.1/std.nc
+
+# Machine-specific plot cache
+**/plot_cache/
+*.log

@@ -1,0 +1,7 @@
+{
+  "station_id": "hkust_zone_a6",
+  "weather_path": "data/weather/era5_hkust_pilot_20211201/input.nc",
+  "latitude": 22.3363,
+  "longitude": 114.2634,
+  "metadata_status": "campus representative and UTC+8 hypothesis; research only"
+}

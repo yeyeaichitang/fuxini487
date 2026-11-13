@@ -1,0 +1,98 @@
+{
+  "pv_data_directory": "data/processed/pv_all_sites_v2",
+  "stations": {
+    "site_1_a": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 50,
+      "include_in_training": false
+    },
+    "site_1_b": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 50,
+      "include_in_training": true
+    },
+    "site_2": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 130,
+      "include_in_training": true
+    },
+    "site_3": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 30,
+      "include_in_training": true
+    },
+    "site_4": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 130,
+      "include_in_training": true
+    },
+    "site_5": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 110,
+      "include_in_training": true
+    },
+    "site_6": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 35,
+      "include_in_training": true
+    },
+    "site_7": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 30,
+      "include_in_training": true
+    },
+    "site_8": {
+      "latitude": null,
+      "longitude": null,
+      "timezone": null,
+      "metadata_verified": false,
+      "capacity_mw_from_filename": 30,
+      "include_in_training": false
+    }
+  },
+  "weather_inputs": [
+    {
+      "path": "data/weather/era5_20190101/input.nc",
+      "source": "ERA5 final analysis via ARCO",
+      "scope": "2019-01-01 pair only"
+    }
+  ],
+  "deployment_stations": {
+    "DG1": {
+      "capacity_mw": 10,
+      "training_station_mapping": null
+    },
+    "DG2": {
+      "capacity_mw": 10,
+      "training_station_mapping": null
+    },
+    "DG3": {
+      "capacity_mw": 10,
+      "training_station_mapping": null
+    }
+  }
+}
