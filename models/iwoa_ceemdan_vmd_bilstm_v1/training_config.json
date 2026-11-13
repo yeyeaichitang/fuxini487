@@ -1,0 +1,17 @@
+{
+  "python": "3.12.10",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.5.2",
+  "pandas": "3.1.0",
+  "scipy": "1.18.1",
+  "PyEMD": "1.10.0",
+  "vmdpy": "0.2",
+  "seed": 42,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "max_final_epochs": 60,
+  "fitness_epochs": 6,
+  "batch_size": 256,
+  "loss": "MSE of capacity-normalized power",
+  "optimizer": "AdamW",
+  "command": "python iwoa_pv/train.py --workers 4"
+}

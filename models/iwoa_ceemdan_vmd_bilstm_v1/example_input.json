@@ -1,0 +1,136 @@
+{
+  "station_id": "site_1_b",
+  "capacity_mw": 50.0,
+  "as_of": "2020-04-01 07:45:00",
+  "interval_minutes": 15,
+  "history": [
+    {
+      "timestamp": "2020-04-01 04:00:00",
+      "temperature_c": 1.1,
+      "pressure_hpa": 917.0,
+      "humidity_percent": 27.3,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 04:15:00",
+      "temperature_c": 0.8,
+      "pressure_hpa": 916.9,
+      "humidity_percent": 27.3,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 04:30:00",
+      "temperature_c": 0.8,
+      "pressure_hpa": 916.7,
+      "humidity_percent": 27.6,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 04:45:00",
+      "temperature_c": 0.5,
+      "pressure_hpa": 916.9,
+      "humidity_percent": 27.0,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 05:00:00",
+      "temperature_c": 0.6,
+      "pressure_hpa": 917.0,
+      "humidity_percent": 26.2,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 05:15:00",
+      "temperature_c": 0.3,
+      "pressure_hpa": 917.0,
+      "humidity_percent": 27.0,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 05:30:00",
+      "temperature_c": 0.3,
+      "pressure_hpa": 917.1,
+      "humidity_percent": 26.6,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 05:45:00",
+      "temperature_c": 0.3,
+      "pressure_hpa": 917.3,
+      "humidity_percent": 26.9,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 06:00:00",
+      "temperature_c": 1.2,
+      "pressure_hpa": 917.3,
+      "humidity_percent": 26.2,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 06:15:00",
+      "temperature_c": 0.0,
+      "pressure_hpa": 917.7,
+      "humidity_percent": 28.4,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 06:30:00",
+      "temperature_c": 1.9,
+      "pressure_hpa": 917.5,
+      "humidity_percent": 23.5,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 06:45:00",
+      "temperature_c": 3.1,
+      "pressure_hpa": 917.7,
+      "humidity_percent": 21.3,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 07:00:00",
+      "temperature_c": 2.6,
+      "pressure_hpa": 917.6,
+      "humidity_percent": 22.1,
+      "irradiance_w_m2": 0.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 07:15:00",
+      "temperature_c": 2.0,
+      "pressure_hpa": 917.8,
+      "humidity_percent": 23.5,
+      "irradiance_w_m2": 4.0,
+      "power_mw": 0.0
+    },
+    {
+      "timestamp": "2020-04-01 07:30:00",
+      "temperature_c": 2.2,
+      "pressure_hpa": 917.9,
+      "humidity_percent": 22.7,
+      "irradiance_w_m2": 17.0,
+      "power_mw": 0.114733
+    },
+    {
+      "timestamp": "2020-04-01 07:45:00",
+      "temperature_c": 2.6,
+      "pressure_hpa": 918.0,
+      "humidity_percent": 22.1,
+      "irradiance_w_m2": 34.0,
+      "power_mw": 0.777667
+    }
+  ]
+}

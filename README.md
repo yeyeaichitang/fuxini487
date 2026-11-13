@@ -1,4 +1,16 @@
-# FuXi 光伏功率预测项目
+# 光伏功率预测项目
+
+当前采用 IWOA–CEEMDAN–VMD–BiLSTM，输入四个环境观测字段和历史实测功率，预测下一 15 分钟光伏功率。已完成训练、四组对比实验、模型重载与独立指标复算。
+
+- [当前模型使用说明与测试结果](models/iwoa_ceemdan_vmd_bilstm_v1/README.md)
+- [训练方法与具体配置](iwoa_pv/README.md)
+- [给组长的审阅说明](REVIEW_GUIDE.md)
+- [预测曲线](models/iwoa_ceemdan_vmd_bilstm_v1/comparison_curves.png)与[误差对比](models/iwoa_ceemdan_vmd_bilstm_v1/comparison_metrics.png)
+
+本次使用现有标称 50 MW 单站数据，测试集 8,849 条日间样本，完整组合模型 MAE 1.549 MW、RMSE 2.683 MW、R² 0.9562。IWOA 的具体改进采用本仓库记录的研究变体，目标 10 MW 电站及实际硬件仍需配合验证。
+
+<details>
+<summary>此前 FuXi LoRA 路线记录</summary>
 
 给组长审阅可先看 [模型审阅说明](REVIEW_GUIDE.md)，其中整理了完成情况、对比结果和运行依赖。
 
@@ -49,3 +61,5 @@
 已完成现有数据条件下的完整图 LoRA 训练、模型重载及下一 15 分钟光伏预测。测试站点从训练中完整留出；当前只有一个同期 ERA5 初始化时段，时区、校园代表点和气压仍存在已记录的假设。
 
 本次微调对测试误差的改善极小，简单持续性预测在这批数据上更好。模型为研究交付版，尚未完成 DG1～DG3 实站、实时硬件或生产精度验证。接口封装、滚动优化和联调不属于本次数据与训练代码的交付范围。
+
+</details>

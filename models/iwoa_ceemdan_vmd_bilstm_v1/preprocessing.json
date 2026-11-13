@@ -1,0 +1,52 @@
+{
+  "site_id": "site_1_b",
+  "capacity_mw": 50.0,
+  "fields": [
+    "temperature_c",
+    "pressure_hpa",
+    "humidity_percent",
+    "irradiance_w_m2",
+    "power_mw"
+  ],
+  "history_len": 16,
+  "interval_minutes": 15,
+  "horizon_minutes": 15,
+  "weather_mean": [
+    14.737162590026855,
+    912.6160888671875,
+    22.724449157714844,
+    135.7274932861328
+  ],
+  "weather_std": [
+    13.713314056396484,
+    8.270072937011719,
+    16.850780487060547,
+    142.50173950195312
+  ],
+  "timezone": "unknown; source wall-clock timestamps retained",
+  "source_sha256": "a1a9a9c4bbfba6c17e43c97abf3d9948feb448f881dc7a9daf7a3ae8ba240048",
+  "split_counts": {
+    "train": 14169,
+    "val": 3501,
+    "test": 8849
+  },
+  "daylight_rule": "last observed irradiance > 20 W/m2",
+  "split_rule": "original chronological split; history and target entirely within split",
+  "missing_policy": "reject invalid or discontinuous history or target; no imputation",
+  "ceemdan": {
+    "trials": 16,
+    "epsilon": 0.005,
+    "max_imf": 3,
+    "seed": 42
+  },
+  "iwoa": {
+    "population": 4,
+    "generations": 4,
+    "fitness_epochs": 6,
+    "improvements": [
+      "opposition initialization",
+      "quadratic convergence schedule",
+      "elite Gaussian mutation"
+    ]
+  }
+}
